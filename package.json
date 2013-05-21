@@ -2,7 +2,7 @@
   "name": "less-hidpi",
   "description": "hidpi() is a Less mixin that automatically serves high resolution graphics to high density (Retina-like) displays.",
   "author": "Greg Bergé <berge.greg@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "test": "mocha"
   },

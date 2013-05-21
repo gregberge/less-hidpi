@@ -6,13 +6,13 @@
 
 First you must import the mixin :
 
-```less
+```css
 @import "hidpi"
 ```
 
 Then you can use the mixin :
 
-```less
+```css
 .logo {
   .hidpi('logo.png', 100px, 100px);
 }
@@ -24,7 +24,7 @@ Automatically, it will use `logo@2x.png` on high density devices.
 
 You can configure the mixins using some variables :
 
-```less
+```css
 @hidpi_min_ratio: 1.5;
 @hidpi_suffix: "@2x";
 ```
